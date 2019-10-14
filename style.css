@@ -1,0 +1,237 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background-image: url(https://images.wallpaperscraft.ru/image/zvezdnoe_nebo_noch_chb_116299_3840x2400.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 960px;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
+.biography{
+	min-width: 430px;
+	max-width: 960px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1{
+	font-family: monospace sans-serif;
+	font-style: italic;
+	color: white;
+	text-shadow: 6px 6px 8px black, 0 0 1em grey;
+}
+
+.info{
+	font-family: monospace sans-serif;
+	font-style: italic;
+	color: white;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); 
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+	font-size: 25px;
+	border: 15px solid grey;
+	padding: 0 7px;
+}
+
+strong {
+	text-transform: uppercase;
+	color: lightsteelblue;
+	letter-spacing: 2px;
+	line-height: 25px;
+	font-size: 25px;
+	font-family: monospace sans-serif;
+	text-shadow: 3px 3px 5px black, 0 0 1em grey;
+
+}
+
+.heart:hover{
+	color: maroon;
+	text-shadow: 6px 6px 8px black, 0 0 1em red;
+}
+
+.img_logo{
+	/* width: 300px; */
+	width: auto;
+	height: auto;
+	/* display: flex; */
+
+}
+
+.img_logo .photo1 {
+	width: 300px;
+	height: auto;
+	border: 2px solid white;
+	box-shadow: gray 7px 7px;
+	transition: 0.3s ease;
+}
+
+.img_logo .photo1:hover {
+	width: 310px;
+	height: auto;
+	border: grey 2px solid;
+	box-shadow: 3px 3px 2px white;
+	transition: 0.3s ease;
+}
+
+/* networks */
+
+
+.text {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: grey;
+	font-size: 20px;
+	font-family: monospace sans-serif;
+	text-shadow: 3px 3px 5px black, 0 0 1em black;
+	text-decoration: none;
+}
+
+.instagram {
+	width: 50px;
+	height: auto;
+	box-shadow: 1px 0 2px white;
+	transition: 0.3s ease;
+}
+
+.instagram:hover {
+	width: 70px;
+	height: auto;
+	box-shadow: 1px 0 2px black;
+	transition: 0.3s ease;
+}
+
+.Facebook {
+	width: 50px;
+	height: auto;
+	box-shadow: 1px 0 2px white;
+	transition: 0.3s ease;
+}
+
+.Facebook:hover {
+	width: 70px;
+	height: auto;
+	box-shadow: 1px 0 2px black;
+	transition: 0.3s ease;
+}
+
+.networks {
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+	margin: 20px 0 20px 0;
+	width: 130px;
+	line-height: 60px;
+}
+.networks a img{
+	border-radius: 50%;
+}
+
+
+
+/* Gallery */
+
+
+.container2{
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); 
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+}
+
+.gallery{
+margin: 0 auto;
+width: 100%;
+min-width: 430px;
+max-width: 960px;
+display: flex;
+justify-content: space-between;
+padding: 40px;
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 0 2px white;
+	transition: 0.3s ease;
+}
+.i1:hover{
+	box-shadow: 1px 0 2px red;
+	transition: 0.3s ease;
+	width: 101%;
+	height: auto;
+}
+
+
+
+
+/* след. хрень по списку */
+.container3{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.grid-itm{
+    margin-bottom: 30px;
+	flex: 0 1 calc(25% - 30px * 3/4);
+	font-size: 18px;
+	font-style: italic;;
+	font-family: monospace sans-serif;
+}
+.grid-itm h1{
+	color: black;
+}
+.grid-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.sqr img{
+    width: 200px;
+height: auto;
+text-align: center;
+/* background: black; */
+}
+.footer{
+    width: 100%;
+    max-width: 960px;
+    min-width: 430px;
+	background: black;
+	border-radius: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 85px 0 85px;
+	box-sizing: border-box ;
+}
+.footer span img{
+	width: 30px;
+	height: auto;
+
+}
